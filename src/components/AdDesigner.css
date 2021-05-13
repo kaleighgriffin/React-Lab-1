@@ -1,0 +1,39 @@
+.VoteBox {
+    border: 3px solid black;
+    height: 150px;
+    width: 200px;
+    text-align: center;
+    border-radius: 3px;
+    box-shadow: 3px 3px 3px 3px gray;
+}
+
+.VoteBox.dark {
+    background-color: black;
+    color: white;
+}
+
+h2 {
+    font-family: 'Caveat', cursive;
+    font-size: 40px;
+}
+
+h3 {
+    font-family: sans-serif;
+    font-size: 20px;
+    margin: 5px;
+}
+
+.AdDesigner {
+    width: 50vw;
+    padding-left: 40px;
+}
+
+button {
+    background-color: #0e3c7e;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin: 0 4px;
+    font-family: sans-serif;
+}
+
