@@ -1,0 +1,19 @@
+.ChocolateBar {
+    width: 0;
+    background-color: #4f2c2c;
+}
+
+.StrawberryBar {
+    width: 0;
+    background-color: #de8c91;
+}
+
+.VanillaBar {
+    width: 0;
+    background-color: #cbc0ac;
+}
+
+.Vote {
+    width: 50vw;
+    padding-left: 40px;
+}

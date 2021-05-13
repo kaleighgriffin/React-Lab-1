@@ -54,14 +54,14 @@ function AdDesigner() {
             </div>
             <p><h3>What to Support</h3></p>
             <p>
-                <button onClick={chocolate}>Chocolate</button>
-                <button onClick={vanilla}>Vanilla</button>
-                <button onClick={strawberry}>Strawberry</button>
+                <button disabled={flavor === "Chocolate"} onClick={chocolate}>Chocolate</button>
+                <button disabled={flavor === "Vanilla"} onClick={vanilla}>Vanilla</button>
+                <button disabled={flavor === "Strawberry"} onClick={strawberry}>Strawberry</button>
             </p>
             <p><h3>Color Theme</h3></p>
             <p>
-                <button onClick={light}>Light</button>
-                <button onClick={dark}>Dark</button>
+                <button disabled={theme === false} onClick={light}>Light</button>
+                <button disabled={theme === true} onClick={dark}>Dark</button>
             </p>
             <p><h3>Font Size</h3></p>
             <p>
